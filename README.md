@@ -3,9 +3,9 @@ It is a simple java application which answers the questions in the gumtree code 
 
 
 # installation 
-java 7 and maven is required to install the application.  run:
+java 7 and maven is required to install the application run:
 
-java -jar target/gumtreeerkin-1.0.0-SNAPSHOT-jar-with-dependencies.jar 
+mvn clean install  assembly:single
 
 This will compile the project,run the tests and  create a runnable jar file.
 
