@@ -22,7 +22,7 @@ public class App {
     }
     
     /**
-     * 
+     *  Runs the application and answers the code challenge questions
      * @param args
      * @throws IOException 
      */
@@ -70,7 +70,7 @@ public class App {
      * @return 
      */
     public int ageDifferenceBillAndPaul() {
-        // this could be more dynamic and get 2 nane arguments. But for now it just simply answer the question. 
+        // This could be more dynamic and get 2 person's names as a parameters. But for now it just simply answers the question. 
         Date billBirthDay = addressBook.getPeople().get("Bill McKnight").getBirthday();
         Date paulBirthDay = addressBook.getPeople().get("Paul Robinson").getBirthday();
         return Days.daysBetween(new DateTime(billBirthDay), new DateTime(paulBirthDay)).getDays();
