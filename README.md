@@ -1,9 +1,9 @@
-# gumtreeerkin
+# Gumtreeerkin
 It is a simple java application which answers the questions in the gumtree code challange. 
 
 
-# installation 
-java 7 and maven is required to install the application run:
+# Installation 
+Java 7 and maven is required to install the application. Run:
 
 mvn clean install  assembly:single
 
@@ -11,8 +11,8 @@ This will compile the project,run the tests and  create a runnable jar file.
 
 Project uses junit and jodatime libraries.
 
-# to run the application
-After the application is intalled simply run:
+# Running the application
+After the application is installed simply run:
 
 java -jar target/gumtreeerkin-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 
